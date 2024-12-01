@@ -2,6 +2,9 @@
 
 /****created and maintained  @dasdezine****/
 
+
+
+
 body,
 html {
   margin: 0;
@@ -22,6 +25,8 @@ html {
 body {
   overflow-x: hidden;
   color: #212121;
+
+  
 }
 
 p {
@@ -149,6 +154,12 @@ header .intro-text .skills {
   }
 }
 
+iframe {
+  width: 100%;         /* Responsive width */
+  height: 56.25vw;     /* Maintain 16:9 aspect ratio (56.25% of viewport width) */
+  max-height: 675px;   /* Prevents excessive height on large screens */
+  border: none;
+}
 /* @media(min-width:1024px) {
     header {
         background:#96031A url("https://res.cloudinary.com/dasdezine/image/upload/v1458051926/hero_tab_xawhqo.jpg") no-repeat;
