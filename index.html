@@ -3,6 +3,10 @@
 
 <head>
     <title>Tứ Bất Tử</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
     <link href="./style.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -11,9 +15,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+
+            VANTA.NET({
+                el: "#concac",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x365fca,
+                backgroundColor: 0x0
+            })
+
+            setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            }, 1000)
+        })
+    </script>
+
+
+
 </head>
 
 <body id="page-top" class="index">
+
+    <div id="concac"></div>
+
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-color navbar-fixed-top">
         <div class="container">
@@ -63,9 +106,8 @@
                         <span class="skills">May the Knowledge be with you</span>
                         <hr class="star-light">
                     </div>
-                    <img class="img-responsive img-bigScreen"
-                        src="https://res.cloudinary.com/dasdezine/image/upload/v1458052055/glass_cdjbpa.png"
-                        alt="glasses image" title="geek loves glasses">
+                    
+                    <img src="./cc.png" alt="glow">
                 </div>
             </div>
             <div class="seeMore-btn text-center btn-style">
@@ -154,7 +196,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3 portfolio-item">
+            <!-- <div class="col-sm-3 portfolio-item">
                 <a href="#" class="portfolio-link">
                     <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052402/portfolio_book_y7ypqt.png"
                         class="img-responsive" alt="">
@@ -177,7 +219,13 @@
                     <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052405/portfolio_mocup_hoxha8.png"
                         class="img-responsive" alt="">
                 </a>
-            </div>
+            </div> -->
+            <center><iframe width="1200px" height="900px" src="https://www.youtube.com/embed/Z5DdmjJrdKU"
+                    title="Best Nightcore Gaming Mix 2024 ♫ Gaming Music Mix ♫ New Music 2024 EDM Gaming Music"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
         </div>
         <div class="loadMore-btn text-center btn-style">
             <div class="btn-styleLine double-line">
