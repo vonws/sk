@@ -328,7 +328,7 @@ section.success {
   }
 }
 
-}
+
 
 /* #myLikes .portfolio-item,
 #about .about-item {
@@ -344,12 +344,12 @@ section.success {
 } */
 
 
-#myLikes .portfolio-item,
+#myLikes .portfolio-item
  {
   text-align: center;
 }
 
-#myLikes .portfolio-item p,
+#myLikes .portfolio-item p
 {
 
   text-align: center;
